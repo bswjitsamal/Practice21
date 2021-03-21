@@ -25,7 +25,7 @@ import jxl.read.biff.BiffException;
 import jxl.write.WriteException;
 import jxl.write.biff.RowsExceededException;
 
-public class ManualEntry {
+public class ManualEntryWithAPI {
 
 	List<String> listItemType;
 	List<String> listField;
@@ -86,11 +86,11 @@ public class ManualEntry {
 		 * STEP-1: GETITNG AN ORG ID AND UPDATING THE SAME IN THE EXCEL
 		 */
 
-		Response getOrgId = restUtils.get_URL_withOneQueryParam(URL, "/itemTypes", "format", "json");
-		getOrgId.prettyPrint();
+		Response itemTypes = restUtils.get_URL_withOneQueryParam(URL, "/itemTypes", "format", "json");
+		itemTypes.prettyPrint();
 
 		// Retrieving the OrgId with index from the response
-		JsonPath jsonPathEvaluator = getOrgId.jsonPath();
+		JsonPath jsonPathEvaluator = itemTypes.jsonPath();
 		listItemType = jsonPathEvaluator.get("itemType");
 		System.out.println("---------------" + listItemType);
 
@@ -98,10 +98,12 @@ public class ManualEntry {
 			ExcelUtils.writeToExcel(originalExcelPath, copyExcelPath, listItemType.get(i), 0, i + 1, 0);
 		}
 
-		validate_HTTPStrictTransportSecurity(getOrgId);
-		Assert.assertEquals(getOrgId.statusCode(), 200);
+		validate_HTTPStrictTransportSecurity(itemTypes);
+		Assert.assertEquals(itemTypes.statusCode(), 200);
 
 	}
+	
+	
 
 	@DataProvider(name = "firstDataProvider")
 	public Object[][] itemTypeFields() throws Exception {
@@ -124,18 +126,20 @@ public class ManualEntry {
 		String allItemType = itemTyp.differentItemType(data);
 		System.out.println("--->" + allItemType);
 
-		Response getOrgId = restUtils.get_URL_withTwoQueryParams(URL, "/itemTypeFields", "format", "json", "itemType",
+		Response itemTypeFields = restUtils.get_URL_withTwoQueryParams(URL, "/itemTypeFields", "format", "json", "itemType",
 				allItemType.substring(13, allItemType.length() - 2));
-		getOrgId.prettyPrint();
+		itemTypeFields.prettyPrint();
 
 		// Retrieving the OrgId with index from the response
-		JsonPath jsonPathEvaluator = getOrgId.jsonPath();
+		JsonPath jsonPathEvaluator = itemTypeFields.jsonPath();
 		listField = jsonPathEvaluator.get("field");
 		System.out.println("---------------" + listField);
 
-		validate_HTTPStrictTransportSecurity(getOrgId);
-		Assert.assertEquals(getOrgId.statusCode(), 200);
+		validate_HTTPStrictTransportSecurity(itemTypeFields);
+		Assert.assertEquals(itemTypeFields.statusCode(), 200);
 	}
+	
+	
 
 	@DataProvider(name = "secondDataProvider")
 	public Object[][] itemTypeCreatorTypes() throws Exception {
@@ -158,12 +162,12 @@ public class ManualEntry {
 		String allItemType = itemTyp.differentItemType(data);
 		System.out.println("--->" + allItemType);
 
-		Response getOrgId = restUtils.get_URL_withTwoQueryParams(URL, "/itemTypeCreatorTypes", "format", "json",
+		Response itemTypeCreatorTypes = restUtils.get_URL_withTwoQueryParams(URL, "/itemTypeCreatorTypes", "format", "json",
 				"itemType", allItemType.substring(13, allItemType.length() - 2));
-		getOrgId.prettyPrint();
+		itemTypeCreatorTypes.prettyPrint();
 
 		// Retrieving the OrgId with index from the response
-		JsonPath jsonPathEvaluator = getOrgId.jsonPath();
+		JsonPath jsonPathEvaluator = itemTypeCreatorTypes.jsonPath();
 		listCreatorType = jsonPathEvaluator.get("creatorType");
 		System.out.println("---------------" + listCreatorType);
 
@@ -173,8 +177,8 @@ public class ManualEntry {
 		 * 1, i, 0); }
 		 */
 
-		validate_HTTPStrictTransportSecurity(getOrgId);
-		Assert.assertEquals(getOrgId.statusCode(), 200);
+		validate_HTTPStrictTransportSecurity(itemTypeCreatorTypes);
+		Assert.assertEquals(itemTypeCreatorTypes.statusCode(), 200);
 
 	}
 

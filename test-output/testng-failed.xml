@@ -11,13 +11,13 @@
       </run>
     </groups>
     <classes>
-      <class name="TestSute.ManualEntry">
+      <class name="TestSute.ManualEntryWithAPI">
         <methods>
           <include name="endToEnd"/>
           <include name="setup"/>
           <include name="itemTypeCreatorTypes" invocation-numbers="24"/>
         </methods>
-      </class> <!-- TestSute.ManualEntry -->
+      </class> <!-- TestSute.ManualEntryWithAPI -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
