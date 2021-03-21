@@ -13,6 +13,7 @@
     <classes>
       <class name="TestSute.ManualEntry">
         <methods>
+          <include name="endToEnd"/>
           <include name="setup"/>
           <include name="itemTypeCreatorTypes" invocation-numbers="24"/>
         </methods>

@@ -1,21 +1,889 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="2" total="71" passed="69">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7038" started-at="2021-03-21T17:24:41Z" finished-at="2021-03-21T17:24:48Z">
+  <suite name="Suite" duration-ms="171846" started-at="2021-03-21T18:41:08Z" finished-at="2021-03-21T18:44:00Z">
     <groups>
+      <group name="IntegrationTests">
+        <method signature="ManualEntry.endToEnd()[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="endToEnd" class="TestSute.ManualEntry"/>
+        <method signature="ManualEntry.itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" class="TestSute.ManualEntry"/>
+        <method signature="ManualEntry.itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" class="TestSute.ManualEntry"/>
+      </group> <!-- IntegrationTests -->
     </groups>
-    <test name="Default test" duration-ms="7038" started-at="2021-03-21T17:24:41Z" finished-at="2021-03-21T17:24:48Z">
+    <test name="Test" duration-ms="171846" started-at="2021-03-21T18:41:08Z" finished-at="2021-03-21T18:44:00Z">
       <class name="TestSute.ManualEntry">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestSute.ManualEntry@239963d8]" name="setup" is-config="true" duration-ms="7" started-at="2021-03-21T22:54:41Z" finished-at="2021-03-21T22:54:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="setup" is-config="true" duration-ms="7" started-at="2021-03-22T00:11:08Z" finished-at="2021-03-22T00:11:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="updateExcelFieds()[pri:0, instance:TestSute.ManualEntry@239963d8]" name="updateExcelFieds" duration-ms="7022" started-at="2021-03-21T22:54:41Z" finished-at="2021-03-21T22:54:48Z">
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="3974" started-at="2021-03-22T00:11:08Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[artwork]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateExcelFieds -->
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1395" started-at="2021-03-22T00:11:12Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[audioRecording]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1332" started-at="2021-03-22T00:11:14Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bill]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1349" started-at="2021-03-22T00:11:15Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blogPost]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1380" started-at="2021-03-22T00:11:16Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[book]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1357" started-at="2021-03-22T00:11:18Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bookSection]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1339" started-at="2021-03-22T00:11:19Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[case]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1372" started-at="2021-03-22T00:11:21Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[computerProgram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1328" started-at="2021-03-22T00:11:22Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[conferencePaper]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1363" started-at="2021-03-22T00:11:23Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dictionaryEntry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1316" started-at="2021-03-22T00:11:25Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[document]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1482" started-at="2021-03-22T00:11:26Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1330" started-at="2021-03-22T00:11:27Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[encyclopediaArticle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1320" started-at="2021-03-22T00:11:29Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[film]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1336" started-at="2021-03-22T00:11:30Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[forumPost]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1580" started-at="2021-03-22T00:11:31Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hearing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1781" started-at="2021-03-22T00:11:33Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[instantMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1342" started-at="2021-03-22T00:11:35Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[interview]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1332" started-at="2021-03-22T00:11:36Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[journalArticle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1307" started-at="2021-03-22T00:11:37Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[letter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1378" started-at="2021-03-22T00:11:39Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[magazineArticle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1315" started-at="2021-03-22T00:11:40Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manuscript]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1339" started-at="2021-03-22T00:11:42Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[map]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1359" started-at="2021-03-22T00:11:43Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newspaperArticle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1328" started-at="2021-03-22T00:11:44Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[note]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1291" started-at="2021-03-22T00:11:46Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[patent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1295" started-at="2021-03-22T00:11:47Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[podcast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1339" started-at="2021-03-22T00:11:48Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[presentation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1360" started-at="2021-03-22T00:11:49Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[radioBroadcast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1352" started-at="2021-03-22T00:11:51Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[report]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1333" started-at="2021-03-22T00:11:52Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[statute]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1555" started-at="2021-03-22T00:11:54Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tvBroadcast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1307" started-at="2021-03-22T00:11:55Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thesis]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1297" started-at="2021-03-22T00:11:56Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[videoRecording]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeFields(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeFields" duration-ms="1294" started-at="2021-03-22T00:11:58Z" data-provider="firstDataProvider" finished-at="2021-03-22T00:11:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webpage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeFields -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1260" started-at="2021-03-22T00:11:59Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[artwork]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1275" started-at="2021-03-22T00:12:01Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[audioRecording]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1319" started-at="2021-03-22T00:12:02Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bill]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1320" started-at="2021-03-22T00:12:03Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blogPost]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1316" started-at="2021-03-22T00:12:05Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[book]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1325" started-at="2021-03-22T00:12:06Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bookSection]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1305" started-at="2021-03-22T00:12:07Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[case]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1277" started-at="2021-03-22T00:12:09Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[computerProgram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1330" started-at="2021-03-22T00:12:10Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[conferencePaper]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1936" started-at="2021-03-22T00:12:11Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dictionaryEntry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1284" started-at="2021-03-22T00:12:13Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[document]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1310" started-at="2021-03-22T00:12:14Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1424" started-at="2021-03-22T00:12:16Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[encyclopediaArticle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1309" started-at="2021-03-22T00:12:17Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[film]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1313" started-at="2021-03-22T00:12:18Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[forumPost]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1278" started-at="2021-03-22T00:12:20Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hearing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1335" started-at="2021-03-22T00:12:21Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[instantMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1328" started-at="2021-03-22T00:12:22Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[interview]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1280" started-at="2021-03-22T00:12:24Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[journalArticle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1325" started-at="2021-03-22T00:12:25Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[letter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1289" started-at="2021-03-22T00:12:26Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[magazineArticle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1259" started-at="2021-03-22T00:12:28Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manuscript]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1316" started-at="2021-03-22T00:12:29Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[map]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1322" started-at="2021-03-22T00:12:30Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newspaperArticle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="FAIL" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1533" started-at="2021-03-22T00:12:31Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[note]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.restassured.path.json.exception.JsonPathException">
+            <message>
+              <![CDATA[Failed to parse the JSON document]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:930)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:895)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:975)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:201)
+	at TestSute.ManualEntry.itemTypeCreatorTypes(ManualEntry.java:167)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:83)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:893)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:928)
+	... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.restassured.path.json.exception.JsonPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1307" started-at="2021-03-22T00:12:33Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[patent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1279" started-at="2021-03-22T00:12:34Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[podcast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1312" started-at="2021-03-22T00:12:36Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[presentation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1298" started-at="2021-03-22T00:12:37Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[radioBroadcast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1333" started-at="2021-03-22T00:12:38Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[report]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1315" started-at="2021-03-22T00:12:40Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[statute]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1278" started-at="2021-03-22T00:12:41Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tvBroadcast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1266" started-at="2021-03-22T00:12:42Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thesis]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1451" started-at="2021-03-22T00:12:43Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[videoRecording]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="PASS" signature="itemTypeCreatorTypes(java.lang.String)[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="itemTypeCreatorTypes" duration-ms="1440" started-at="2021-03-22T00:12:45Z" data-provider="secondDataProvider" finished-at="2021-03-22T00:12:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webpage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemTypeCreatorTypes -->
+        <test-method status="FAIL" signature="endToEnd()[pri:0, instance:TestSute.ManualEntry@3c0ecd4b]" name="endToEnd" duration-ms="73761" started-at="2021-03-22T00:12:46Z" finished-at="2021-03-22T00:14:00Z">
+          <exception class="io.restassured.path.json.exception.JsonPathException">
+            <message>
+              <![CDATA[Failed to parse the JSON document]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:930)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:895)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:975)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:201)
+	at TestSute.ManualEntry.endToEnd(ManualEntry.java:218)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:83)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:893)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:928)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.restassured.path.json.exception.JsonPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEnd -->
       </class> <!-- TestSute.ManualEntry -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
