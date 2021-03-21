@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -36,8 +36,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -47,37 +47,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\33875\AppData\Local\Temp\testng-eclipse--1104289238\testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\33875\workspace\UpdateOfficeFinal\Practice\testNg.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
-                    <span>0 groups</span>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -90,21 +90,385 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">72 methods, 2 failed,   70 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="endToEnd">endToEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(note)">itemTypeCreatorTypes(note)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestSute.ManualEntryWithSel" hash-for-method="zoteroBib">zoteroBib</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(document)">itemTypeCreatorTypes(document)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(interview)">itemTypeCreatorTypes(interview)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(letter)">itemTypeCreatorTypes(letter)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(videoRecording)">itemTypeCreatorTypes(videoRecording)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(conferencePaper)">itemTypeCreatorTypes(conferencePaper)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(bookSection)">itemTypeCreatorTypes(bookSection)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(radioBroadcast)">itemTypeCreatorTypes(radioBroadcast)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(webpage)">itemTypeCreatorTypes(webpage)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(audioRecording)">itemTypeCreatorTypes(audioRecording)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(blogPost)">itemTypeCreatorTypes(blogPost)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(manuscript)">itemTypeCreatorTypes(manuscript)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(film)">itemTypeCreatorTypes(film)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(case)">itemTypeCreatorTypes(case)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(podcast)">itemTypeCreatorTypes(podcast)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(tvBroadcast)">itemTypeCreatorTypes(tvBroadcast)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(instantMessage)">itemTypeCreatorTypes(instantMessage)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(magazineArticle)">itemTypeCreatorTypes(magazineArticle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(book)">itemTypeCreatorTypes(book)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(encyclopediaArticle)">itemTypeCreatorTypes(encyclopediaArticle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(thesis)">itemTypeCreatorTypes(thesis)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(journalArticle)">itemTypeCreatorTypes(journalArticle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(statute)">itemTypeCreatorTypes(statute)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(report)">itemTypeCreatorTypes(report)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(presentation)">itemTypeCreatorTypes(presentation)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(map)">itemTypeCreatorTypes(map)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(newspaperArticle)">itemTypeCreatorTypes(newspaperArticle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(forumPost)">itemTypeCreatorTypes(forumPost)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(artwork)">itemTypeCreatorTypes(artwork)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(hearing)">itemTypeCreatorTypes(hearing)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(dictionaryEntry)">itemTypeCreatorTypes(dictionaryEntry)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(email)">itemTypeCreatorTypes(email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(patent)">itemTypeCreatorTypes(patent)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(bill)">itemTypeCreatorTypes(bill)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeCreatorTypes(computerProgram)">itemTypeCreatorTypes(computerProgram)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(manuscript)">itemTypeFields(manuscript)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(report)">itemTypeFields(report)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(magazineArticle)">itemTypeFields(magazineArticle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(podcast)">itemTypeFields(podcast)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(radioBroadcast)">itemTypeFields(radioBroadcast)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(artwork)">itemTypeFields(artwork)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(thesis)">itemTypeFields(thesis)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(book)">itemTypeFields(book)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(case)">itemTypeFields(case)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(conferencePaper)">itemTypeFields(conferencePaper)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(statute)">itemTypeFields(statute)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(bill)">itemTypeFields(bill)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(tvBroadcast)">itemTypeFields(tvBroadcast)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(encyclopediaArticle)">itemTypeFields(encyclopediaArticle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(film)">itemTypeFields(film)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(map)">itemTypeFields(map)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(webpage)">itemTypeFields(webpage)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(document)">itemTypeFields(document)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(forumPost)">itemTypeFields(forumPost)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(instantMessage)">itemTypeFields(instantMessage)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(computerProgram)">itemTypeFields(computerProgram)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(blogPost)">itemTypeFields(blogPost)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(dictionaryEntry)">itemTypeFields(dictionaryEntry)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(patent)">itemTypeFields(patent)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(note)">itemTypeFields(note)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(presentation)">itemTypeFields(presentation)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(email)">itemTypeFields(email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(hearing)">itemTypeFields(hearing)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(audioRecording)">itemTypeFields(audioRecording)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(videoRecording)">itemTypeFields(videoRecording)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(newspaperArticle)">itemTypeFields(newspaperArticle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(journalArticle)">itemTypeFields(journalArticle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(bookSection)">itemTypeFields(bookSection)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(letter)">itemTypeFields(letter)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithAPI" hash-for-method="itemTypeFields(interview)">itemTypeFields(interview)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestSute.ManualEntryWithSel" hash-for-method="zoteroBib">zoteroBib</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -115,8 +479,702 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestSute.ManualEntryWithAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="endToEnd">
+                  </a> <!-- endToEnd -->
+                  <span class="method-name">endToEnd</span>
+                  <div class="stack-trace"><b>"io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:930)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:895)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:975)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:201)
+	at TestSute.ManualEntryWithAPI.endToEnd(ManualEntryWithAPI.java:211)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;&lt;&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:83)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:893)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:928)
+	... 28 more
+... Removed 24 stack frames<br/> io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:930)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:895)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:975)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:201)
+	at TestSute.ManualEntryWithAPI.endToEnd(ManualEntryWithAPI.java:211)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;&lt;&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:83)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:893)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:928)
+	... 28 more
+"</b><br>io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:930)<br>io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:895)<br>io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:975)<br>io.restassured.path.json.JsonPath.get(JsonPath.java:201)<br>TestSute.ManualEntryWithAPI.endToEnd(ManualEntryWithAPI.java:211)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(note)">
+                  </a> <!-- itemTypeCreatorTypes(note) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(note)</span>
+                  <div class="stack-trace"><b>"io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:930)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:895)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:975)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:201)
+	at TestSute.ManualEntryWithAPI.itemTypeCreatorTypes(ManualEntryWithAPI.java:167)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;&lt;&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:83)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:893)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:928)
+	... 27 more
+... Removed 23 stack frames<br/> io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:930)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:895)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:975)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:201)
+	at TestSute.ManualEntryWithAPI.itemTypeCreatorTypes(ManualEntryWithAPI.java:167)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;&lt;&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:83)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:893)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:928)
+	... 27 more
+"</b><br>io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:930)<br>io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:895)<br>io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:975)<br>io.restassured.path.json.JsonPath.get(JsonPath.java:201)<br>TestSute.ManualEntryWithAPI.itemTypeCreatorTypes(ManualEntryWithAPI.java:167)<br>sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestSute.ManualEntryWithAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(document)">
+                  </a> <!-- itemTypeCreatorTypes(document) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(document)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(interview)">
+                  </a> <!-- itemTypeCreatorTypes(interview) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(interview)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(letter)">
+                  </a> <!-- itemTypeCreatorTypes(letter) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(letter)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(videoRecording)">
+                  </a> <!-- itemTypeCreatorTypes(videoRecording) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(videoRecording)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(conferencePaper)">
+                  </a> <!-- itemTypeCreatorTypes(conferencePaper) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(conferencePaper)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(bookSection)">
+                  </a> <!-- itemTypeCreatorTypes(bookSection) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(bookSection)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(radioBroadcast)">
+                  </a> <!-- itemTypeCreatorTypes(radioBroadcast) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(radioBroadcast)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(webpage)">
+                  </a> <!-- itemTypeCreatorTypes(webpage) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(webpage)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(audioRecording)">
+                  </a> <!-- itemTypeCreatorTypes(audioRecording) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(audioRecording)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(blogPost)">
+                  </a> <!-- itemTypeCreatorTypes(blogPost) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(blogPost)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(manuscript)">
+                  </a> <!-- itemTypeCreatorTypes(manuscript) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(manuscript)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(film)">
+                  </a> <!-- itemTypeCreatorTypes(film) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(film)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(case)">
+                  </a> <!-- itemTypeCreatorTypes(case) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(case)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(podcast)">
+                  </a> <!-- itemTypeCreatorTypes(podcast) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(podcast)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(tvBroadcast)">
+                  </a> <!-- itemTypeCreatorTypes(tvBroadcast) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(tvBroadcast)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(instantMessage)">
+                  </a> <!-- itemTypeCreatorTypes(instantMessage) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(instantMessage)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(magazineArticle)">
+                  </a> <!-- itemTypeCreatorTypes(magazineArticle) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(magazineArticle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(book)">
+                  </a> <!-- itemTypeCreatorTypes(book) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(book)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(encyclopediaArticle)">
+                  </a> <!-- itemTypeCreatorTypes(encyclopediaArticle) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(encyclopediaArticle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(thesis)">
+                  </a> <!-- itemTypeCreatorTypes(thesis) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(thesis)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(journalArticle)">
+                  </a> <!-- itemTypeCreatorTypes(journalArticle) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(journalArticle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(statute)">
+                  </a> <!-- itemTypeCreatorTypes(statute) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(statute)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(report)">
+                  </a> <!-- itemTypeCreatorTypes(report) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(report)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(presentation)">
+                  </a> <!-- itemTypeCreatorTypes(presentation) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(presentation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(map)">
+                  </a> <!-- itemTypeCreatorTypes(map) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(map)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(newspaperArticle)">
+                  </a> <!-- itemTypeCreatorTypes(newspaperArticle) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(newspaperArticle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(forumPost)">
+                  </a> <!-- itemTypeCreatorTypes(forumPost) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(forumPost)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(artwork)">
+                  </a> <!-- itemTypeCreatorTypes(artwork) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(artwork)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(hearing)">
+                  </a> <!-- itemTypeCreatorTypes(hearing) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(hearing)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(dictionaryEntry)">
+                  </a> <!-- itemTypeCreatorTypes(dictionaryEntry) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(dictionaryEntry)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(email)">
+                  </a> <!-- itemTypeCreatorTypes(email) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(patent)">
+                  </a> <!-- itemTypeCreatorTypes(patent) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(patent)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(bill)">
+                  </a> <!-- itemTypeCreatorTypes(bill) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(bill)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeCreatorTypes(computerProgram)">
+                  </a> <!-- itemTypeCreatorTypes(computerProgram) -->
+                  <span class="method-name">itemTypeCreatorTypes</span>
+                  <span class="parameters">(computerProgram)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(manuscript)">
+                  </a> <!-- itemTypeFields(manuscript) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(manuscript)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(report)">
+                  </a> <!-- itemTypeFields(report) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(report)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(magazineArticle)">
+                  </a> <!-- itemTypeFields(magazineArticle) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(magazineArticle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(podcast)">
+                  </a> <!-- itemTypeFields(podcast) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(podcast)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(radioBroadcast)">
+                  </a> <!-- itemTypeFields(radioBroadcast) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(radioBroadcast)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(artwork)">
+                  </a> <!-- itemTypeFields(artwork) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(artwork)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(thesis)">
+                  </a> <!-- itemTypeFields(thesis) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(thesis)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(book)">
+                  </a> <!-- itemTypeFields(book) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(book)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(case)">
+                  </a> <!-- itemTypeFields(case) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(case)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(conferencePaper)">
+                  </a> <!-- itemTypeFields(conferencePaper) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(conferencePaper)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(statute)">
+                  </a> <!-- itemTypeFields(statute) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(statute)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(bill)">
+                  </a> <!-- itemTypeFields(bill) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(bill)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(tvBroadcast)">
+                  </a> <!-- itemTypeFields(tvBroadcast) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(tvBroadcast)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(encyclopediaArticle)">
+                  </a> <!-- itemTypeFields(encyclopediaArticle) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(encyclopediaArticle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(film)">
+                  </a> <!-- itemTypeFields(film) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(film)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(map)">
+                  </a> <!-- itemTypeFields(map) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(map)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(webpage)">
+                  </a> <!-- itemTypeFields(webpage) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(webpage)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(document)">
+                  </a> <!-- itemTypeFields(document) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(document)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(forumPost)">
+                  </a> <!-- itemTypeFields(forumPost) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(forumPost)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(instantMessage)">
+                  </a> <!-- itemTypeFields(instantMessage) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(instantMessage)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(computerProgram)">
+                  </a> <!-- itemTypeFields(computerProgram) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(computerProgram)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(blogPost)">
+                  </a> <!-- itemTypeFields(blogPost) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(blogPost)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(dictionaryEntry)">
+                  </a> <!-- itemTypeFields(dictionaryEntry) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(dictionaryEntry)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(patent)">
+                  </a> <!-- itemTypeFields(patent) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(patent)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(note)">
+                  </a> <!-- itemTypeFields(note) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(note)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(presentation)">
+                  </a> <!-- itemTypeFields(presentation) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(presentation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(email)">
+                  </a> <!-- itemTypeFields(email) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(hearing)">
+                  </a> <!-- itemTypeFields(hearing) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(hearing)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(audioRecording)">
+                  </a> <!-- itemTypeFields(audioRecording) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(audioRecording)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(videoRecording)">
+                  </a> <!-- itemTypeFields(videoRecording) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(videoRecording)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(newspaperArticle)">
+                  </a> <!-- itemTypeFields(newspaperArticle) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(newspaperArticle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(journalArticle)">
+                  </a> <!-- itemTypeFields(journalArticle) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(journalArticle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(bookSection)">
+                  </a> <!-- itemTypeFields(bookSection) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(bookSection)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(letter)">
+                  </a> <!-- itemTypeFields(letter) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(letter)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemTypeFields(interview)">
+                  </a> <!-- itemTypeFields(interview) -->
+                  <span class="method-name">itemTypeFields</span>
+                  <span class="parameters">(interview)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">TestSute.ManualEntryWithSel</span>
@@ -130,102 +1188,713 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\33875\AppData\Local\Temp\testng-eclipse--1104289238\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\33875\workspace\UpdateOfficeFinal\Practice\testNg.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utils.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;IntegrationTests&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestSute.ManualEntryWithSel&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;zoteroBib&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- TestSute.ManualEntryWithSel --&gt;
+      &lt;class name=&quot;TestSute.ManualEntryWithAPI&quot;/&gt;
+      &lt;class name=&quot;TestSute.ManualEntryWithSel&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">IntegrationTests</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">endToEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">itemTypeCreatorTypes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">itemTypeFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">zoteroBib</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(72);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'zoteroBib')
-data.setCell(0, 2, 'TestSute.ManualEntryWithSel')
-data.setCell(0, 3, 29766);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'endToEnd')
+data.setCell(0, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(0, 3, 71623);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'zoteroBib')
+data.setCell(1, 2, 'TestSute.ManualEntryWithSel')
+data.setCell(1, 3, 66887);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'itemTypeFields')
+data.setCell(2, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(2, 3, 3653);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'itemTypeCreatorTypes')
+data.setCell(3, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(3, 3, 2238);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'itemTypeCreatorTypes')
+data.setCell(4, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(4, 3, 2064);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'itemTypeCreatorTypes')
+data.setCell(5, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(5, 3, 2060);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'itemTypeFields')
+data.setCell(6, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(6, 3, 1803);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'itemTypeFields')
+data.setCell(7, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(7, 3, 1521);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'itemTypeFields')
+data.setCell(8, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(8, 3, 1492);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'itemTypeCreatorTypes')
+data.setCell(9, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(9, 3, 1489);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'itemTypeCreatorTypes')
+data.setCell(10, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(10, 3, 1487);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'itemTypeCreatorTypes')
+data.setCell(11, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(11, 3, 1474);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'itemTypeCreatorTypes')
+data.setCell(12, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(12, 3, 1468);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'itemTypeCreatorTypes')
+data.setCell(13, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(13, 3, 1452);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'itemTypeCreatorTypes')
+data.setCell(14, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(14, 3, 1450);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'itemTypeCreatorTypes')
+data.setCell(15, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(15, 3, 1449);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'itemTypeCreatorTypes')
+data.setCell(16, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(16, 3, 1441);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'itemTypeCreatorTypes')
+data.setCell(17, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(17, 3, 1438);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'itemTypeCreatorTypes')
+data.setCell(18, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(18, 3, 1435);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'itemTypeCreatorTypes')
+data.setCell(19, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(19, 3, 1431);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'itemTypeFields')
+data.setCell(20, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(20, 3, 1429);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'itemTypeCreatorTypes')
+data.setCell(21, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(21, 3, 1427);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'itemTypeCreatorTypes')
+data.setCell(22, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(22, 3, 1425);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'itemTypeCreatorTypes')
+data.setCell(23, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(23, 3, 1425);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'itemTypeFields')
+data.setCell(24, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(24, 3, 1420);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'itemTypeCreatorTypes')
+data.setCell(25, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(25, 3, 1420);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'itemTypeCreatorTypes')
+data.setCell(26, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(26, 3, 1413);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'itemTypeFields')
+data.setCell(27, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(27, 3, 1409);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'itemTypeCreatorTypes')
+data.setCell(28, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(28, 3, 1407);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'itemTypeCreatorTypes')
+data.setCell(29, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(29, 3, 1405);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'itemTypeCreatorTypes')
+data.setCell(30, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(30, 3, 1401);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'itemTypeCreatorTypes')
+data.setCell(31, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(31, 3, 1401);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'itemTypeCreatorTypes')
+data.setCell(32, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(32, 3, 1399);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'itemTypeCreatorTypes')
+data.setCell(33, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(33, 3, 1396);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'itemTypeCreatorTypes')
+data.setCell(34, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(34, 3, 1391);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'itemTypeFields')
+data.setCell(35, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(35, 3, 1377);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'itemTypeFields')
+data.setCell(36, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(36, 3, 1370);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'itemTypeFields')
+data.setCell(37, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(37, 3, 1367);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'itemTypeFields')
+data.setCell(38, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(38, 3, 1363);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'itemTypeFields')
+data.setCell(39, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(39, 3, 1363);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'itemTypeFields')
+data.setCell(40, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(40, 3, 1363);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'itemTypeFields')
+data.setCell(41, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(41, 3, 1362);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'itemTypeFields')
+data.setCell(42, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(42, 3, 1360);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'itemTypeFields')
+data.setCell(43, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(43, 3, 1360);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'itemTypeFields')
+data.setCell(44, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(44, 3, 1356);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'itemTypeFields')
+data.setCell(45, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(45, 3, 1354);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'itemTypeCreatorTypes')
+data.setCell(46, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(46, 3, 1353);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'itemTypeCreatorTypes')
+data.setCell(47, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(47, 3, 1346);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'itemTypeFields')
+data.setCell(48, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(48, 3, 1345);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'itemTypeCreatorTypes')
+data.setCell(49, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(49, 3, 1345);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'itemTypeCreatorTypes')
+data.setCell(50, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(50, 3, 1345);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'itemTypeFields')
+data.setCell(51, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(51, 3, 1342);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'itemTypeFields')
+data.setCell(52, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(52, 3, 1341);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'itemTypeFields')
+data.setCell(53, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(53, 3, 1341);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'itemTypeFields')
+data.setCell(54, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(54, 3, 1340);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'itemTypeFields')
+data.setCell(55, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(55, 3, 1336);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'itemTypeFields')
+data.setCell(56, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(56, 3, 1335);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'itemTypeFields')
+data.setCell(57, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(57, 3, 1333);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'itemTypeFields')
+data.setCell(58, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(58, 3, 1333);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'itemTypeFields')
+data.setCell(59, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(59, 3, 1332);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'itemTypeFields')
+data.setCell(60, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(60, 3, 1331);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'itemTypeFields')
+data.setCell(61, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(61, 3, 1331);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'itemTypeCreatorTypes')
+data.setCell(62, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(62, 3, 1330);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'itemTypeFields')
+data.setCell(63, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(63, 3, 1325);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'itemTypeFields')
+data.setCell(64, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(64, 3, 1325);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'itemTypeCreatorTypes')
+data.setCell(65, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(65, 3, 1322);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'itemTypeCreatorTypes')
+data.setCell(66, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(66, 3, 1318);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'itemTypeFields')
+data.setCell(67, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(67, 3, 1315);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'itemTypeFields')
+data.setCell(68, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(68, 3, 1310);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'itemTypeCreatorTypes')
+data.setCell(69, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(69, 3, 1309);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'itemTypeCreatorTypes')
+data.setCell(70, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(70, 3, 1296);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'itemTypeFields')
+data.setCell(71, 2, 'TestSute.ManualEntryWithAPI')
+data.setCell(71, 3, 1293);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestSute.ManualEntryWithAPI</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">updateExcelFieds</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">TestSute.ManualEntryWithAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(artwork)</span>
+                <span class="method-start">157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(audioRecording)</span>
+                <span class="method-start">3810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(bill)</span>
+                <span class="method-start">5166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(blogPost)</span>
+                <span class="method-start">6511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(book)</span>
+                <span class="method-start">7847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(bookSection)</span>
+                <span class="method-start">9178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(case)</span>
+                <span class="method-start">10503 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(computerProgram)</span>
+                <span class="method-start">11829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(conferencePaper)</span>
+                <span class="method-start">13194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(dictionaryEntry)</span>
+                <span class="method-start">14554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(document)</span>
+                <span class="method-start">16357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(email)</span>
+                <span class="method-start">17719 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(encyclopediaArticle)</span>
+                <span class="method-start">19128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(film)</span>
+                <span class="method-start">20460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(forumPost)</span>
+                <span class="method-start">21820 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(hearing)</span>
+                <span class="method-start">23190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(instantMessage)</span>
+                <span class="method-start">24550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(interview)</span>
+                <span class="method-start">25860 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(journalArticle)</span>
+                <span class="method-start">27201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(letter)</span>
+                <span class="method-start">28564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(magazineArticle)</span>
+                <span class="method-start">29899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(manuscript)</span>
+                <span class="method-start">31266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(map)</span>
+                <span class="method-start">32607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(newspaperArticle)</span>
+                <span class="method-start">33940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(note)</span>
+                <span class="method-start">35233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(patent)</span>
+                <span class="method-start">36610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(podcast)</span>
+                <span class="method-start">38131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(presentation)</span>
+                <span class="method-start">39485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(radioBroadcast)</span>
+                <span class="method-start">40818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(report)</span>
+                <span class="method-start">42310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(statute)</span>
+                <span class="method-start">43673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(tvBroadcast)</span>
+                <span class="method-start">45102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(thesis)</span>
+                <span class="method-start">46522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(videoRecording)</span>
+                <span class="method-start">47837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeFields(webpage)</span>
+                <span class="method-start">49177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(artwork)</span>
+                <span class="method-start">50724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(audioRecording)</span>
+                <span class="method-start">52033 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(bill)</span>
+                <span class="method-start">53329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(blogPost)</span>
+                <span class="method-start">54674 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(book)</span>
+                <span class="method-start">56027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(bookSection)</span>
+                <span class="method-start">57372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(case)</span>
+                <span class="method-start">58718 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(computerProgram)</span>
+                <span class="method-start">60048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(conferencePaper)</span>
+                <span class="method-start">61370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(dictionaryEntry)</span>
+                <span class="method-start">62704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(document)</span>
+                <span class="method-start">64153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(email)</span>
+                <span class="method-start">65578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(encyclopediaArticle)</span>
+                <span class="method-start">66998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(film)</span>
+                <span class="method-start">68423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(forumPost)</span>
+                <span class="method-start">69912 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(hearing)</span>
+                <span class="method-start">71304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(instantMessage)</span>
+                <span class="method-start">72740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(interview)</span>
+                <span class="method-start">74142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(journalArticle)</span>
+                <span class="method-start">75581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(letter)</span>
+                <span class="method-start">76980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(magazineArticle)</span>
+                <span class="method-start">79041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(manuscript)</span>
+                <span class="method-start">80529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(map)</span>
+                <span class="method-start">81998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(newspaperArticle)</span>
+                <span class="method-start">83399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">itemTypeCreatorTypes(note)</span>
+                <span class="method-start">84796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(patent)</span>
+                <span class="method-start">87036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(podcast)</span>
+                <span class="method-start">88489 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(presentation)</span>
+                <span class="method-start">90554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(radioBroadcast)</span>
+                <span class="method-start">91960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(report)</span>
+                <span class="method-start">93388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(statute)</span>
+                <span class="method-start">94863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(tvBroadcast)</span>
+                <span class="method-start">96315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(thesis)</span>
+                <span class="method-start">97723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(videoRecording)</span>
+                <span class="method-start">99165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">itemTypeCreatorTypes(webpage)</span>
+                <span class="method-start">100596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">endToEnd</span>
+                <span class="method-start">102010 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">TestSute.ManualEntryWithSel</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">zoteroBib</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">173634 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

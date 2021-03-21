@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Utils.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="IntegrationTests"/>
+      </run>
+    </groups>
     <classes>
-      <class name="TestSute.ManualEntryWithSel">
+      <class name="TestSute.ManualEntryWithAPI">
         <methods>
-          <include name="zoteroBib"/>
+          <include name="endToEnd"/>
+          <include name="setup"/>
+          <include name="itemTypeCreatorTypes" invocation-numbers="24"/>
         </methods>
-      </class> <!-- TestSute.ManualEntryWithSel -->
+      </class> <!-- TestSute.ManualEntryWithAPI -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

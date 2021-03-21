@@ -12,8 +12,9 @@
 			</run>
 		</groups>
 		<classes>
-			<class
-				name="TestSute.ManualEntryWithAPI" />
+			<class name="TestSute.ManualEntryWithAPI" />
+			<class name="TestSute.ManualEntryWithSel" />
+
 
 		</classes>
 	</test> <!-- Test -->

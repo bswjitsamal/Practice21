@@ -102,8 +102,6 @@ public class ManualEntryWithAPI {
 		Assert.assertEquals(itemTypes.statusCode(), 200);
 
 	}
-	
-	
 
 	@DataProvider(name = "firstDataProvider")
 	public Object[][] itemTypeFields() throws Exception {
@@ -126,8 +124,8 @@ public class ManualEntryWithAPI {
 		String allItemType = itemTyp.differentItemType(data);
 		System.out.println("--->" + allItemType);
 
-		Response itemTypeFields = restUtils.get_URL_withTwoQueryParams(URL, "/itemTypeFields", "format", "json", "itemType",
-				allItemType.substring(13, allItemType.length() - 2));
+		Response itemTypeFields = restUtils.get_URL_withTwoQueryParams(URL, "/itemTypeFields", "format", "json",
+				"itemType", allItemType.substring(13, allItemType.length() - 2));
 		itemTypeFields.prettyPrint();
 
 		// Retrieving the OrgId with index from the response
@@ -138,8 +136,6 @@ public class ManualEntryWithAPI {
 		validate_HTTPStrictTransportSecurity(itemTypeFields);
 		Assert.assertEquals(itemTypeFields.statusCode(), 200);
 	}
-	
-	
 
 	@DataProvider(name = "secondDataProvider")
 	public Object[][] itemTypeCreatorTypes() throws Exception {
@@ -162,8 +158,8 @@ public class ManualEntryWithAPI {
 		String allItemType = itemTyp.differentItemType(data);
 		System.out.println("--->" + allItemType);
 
-		Response itemTypeCreatorTypes = restUtils.get_URL_withTwoQueryParams(URL, "/itemTypeCreatorTypes", "format", "json",
-				"itemType", allItemType.substring(13, allItemType.length() - 2));
+		Response itemTypeCreatorTypes = restUtils.get_URL_withTwoQueryParams(URL, "/itemTypeCreatorTypes", "format",
+				"json", "itemType", allItemType.substring(13, allItemType.length() - 2));
 		itemTypeCreatorTypes.prettyPrint();
 
 		// Retrieving the OrgId with index from the response
@@ -171,19 +167,12 @@ public class ManualEntryWithAPI {
 		listCreatorType = jsonPathEvaluator.get("creatorType");
 		System.out.println("---------------" + listCreatorType);
 
-		/*
-		 * for(int i=0;i<listField.size();i++) {
-		 * ExcelUtils.writeToExcel(originalExcelPath, copyExcelPath, listField.get(i),
-		 * 1, i, 0); }
-		 */
-
 		validate_HTTPStrictTransportSecurity(itemTypeCreatorTypes);
 		Assert.assertEquals(itemTypeCreatorTypes.statusCode(), 200);
-
 	}
 
 	@Test(priority = 4, groups = "IntegrationTests")
-	public void endToEnd()  {
+	public void endToEnd() {
 
 		/**
 		 * STEP-1: GETITNG AN ORG ID AND STORING IN A LIST
