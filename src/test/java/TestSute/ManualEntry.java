@@ -61,7 +61,7 @@ public class ManualEntry {
 			
 			//Assert.assertEquals("max-age=31536000; includeSubDomains; preload", strictTransportSecurity);
 			
-			if("max-age=31536000; includeSubDomains; preload" == strictTransportSecurity) {
+			if("max-age=31536000; includeSubDomains; preload".equals(strictTransportSecurity)) {
 				System.out.println("This is following HTTPStrictTransportSecurity");					
 			}else {
 				System.out.println("This is NOT following HTTPStrictTransportSecurity");
