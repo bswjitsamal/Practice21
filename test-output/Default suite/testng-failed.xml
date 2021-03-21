@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestSute.ManualEntry">
+      <class name="TestSute.ManualEntryWithSel">
         <methods>
-          <include name="endToEnd"/>
-          <include name="setup"/>
+          <include name="zoteroBib"/>
         </methods>
-      </class> <!-- TestSute.ManualEntry -->
+      </class> <!-- TestSute.ManualEntryWithSel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

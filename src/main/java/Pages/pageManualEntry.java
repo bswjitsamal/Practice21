@@ -21,6 +21,8 @@ public class pageManualEntry {
 	@FindBy(how = How.XPATH, using = ".//input[@id='title']")
 	public static WebElement titleTextBox;
 	
+	@FindBy(how = How.XPATH, using = ".//button[contains(text(),'Done')]")
+	public static WebElement buttonDone;	
 	
 	@FindBy(how = How.XPATH, using = ".//div[@class='Select-value']/span[contains(text(),'Author')]")
 	public static WebElement authorDropDown;
